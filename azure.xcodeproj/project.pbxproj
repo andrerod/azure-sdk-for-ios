@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC9A3A6217DED2D700178FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9A3A6117DED2D700178FEE /* Foundation.framework */; };
-		DC9A3A6717DED2D700178FEE /* azure.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC9A3A6617DED2D700178FEE /* azure.h */; };
-		DC9A3A6917DED2D700178FEE /* azure.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3A6817DED2D700178FEE /* azure.m */; };
 		DC9A3A7117DED2D800178FEE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9A3A7017DED2D800178FEE /* SenTestingKit.framework */; };
 		DC9A3A7317DED2D800178FEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9A3A7217DED2D800178FEE /* UIKit.framework */; };
 		DC9A3A7417DED2D800178FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9A3A6117DED2D700178FEE /* Foundation.framework */; };
@@ -42,7 +40,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				DC9A3A6717DED2D700178FEE /* azure.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +49,6 @@
 		DC9A3A5E17DED2D700178FEE /* libazure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libazure.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A3A6117DED2D700178FEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC9A3A6517DED2D700178FEE /* azure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "azure-Prefix.pch"; sourceTree = "<group>"; };
-		DC9A3A6617DED2D700178FEE /* azure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = azure.h; sourceTree = "<group>"; };
-		DC9A3A6817DED2D700178FEE /* azure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = azure.m; sourceTree = "<group>"; };
 		DC9A3A6F17DED2D800178FEE /* azureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A3A7017DED2D800178FEE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		DC9A3A7217DED2D800178FEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -144,8 +139,6 @@
 				DC9A3A9717DF35C200178FEE /* MSSharedKey.m */,
 				DC9A3A9817DF35C200178FEE /* MSWebResource.h */,
 				DC9A3A9917DF35C200178FEE /* MSWebResource.m */,
-				DC9A3A6617DED2D700178FEE /* azure.h */,
-				DC9A3A6817DED2D700178FEE /* azure.m */,
 				DC9A3A6417DED2D700178FEE /* Supporting Files */,
 			);
 			path = azure;
@@ -282,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9A3A6917DED2D700178FEE /* azure.m in Sources */,
 				DC9A3A9B17DF35C200178FEE /* MSHmacSha256Sign.m in Sources */,
 				DC9A3A9C17DF35C200178FEE /* MSQueueService.m in Sources */,
 				DC9A3A9D17DF35C200178FEE /* MSSharedKey.m in Sources */,
@@ -449,6 +441,7 @@
 				DC9A3A8517DED2D800178FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC9A3A8617DED2D800178FEE /* Build configuration list for PBXNativeTarget "azureTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +450,7 @@
 				DC9A3A8817DED2D800178FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
