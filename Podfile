@@ -1,4 +1,4 @@
-platform :ios, '10.7'
+platform :ios, '5.0'
  
 xcodeproj 'azure.xcodeproj'
  

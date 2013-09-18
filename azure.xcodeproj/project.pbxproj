@@ -21,6 +21,7 @@
 		DC9A3AA517DF360500178FEE /* MSHmacSha256SignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA017DF360500178FEE /* MSHmacSha256SignTests.m */; };
 		DC9A3AA617DF360500178FEE /* MSQueueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA217DF360500178FEE /* MSQueueServiceTests.m */; };
 		DC9A3AA717DF360500178FEE /* MSSharedKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA417DF360500178FEE /* MSSharedKeyTests.m */; };
+		DCDABCC717E8B00F007B4AEC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDABCC617E8B00F007B4AEC /* Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		DC9A3AA217DF360500178FEE /* MSQueueServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQueueServiceTests.m; sourceTree = "<group>"; };
 		DC9A3AA317DF360500178FEE /* MSSharedKeyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSharedKeyTests.h; sourceTree = "<group>"; };
 		DC9A3AA417DF360500178FEE /* MSSharedKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSharedKeyTests.m; sourceTree = "<group>"; };
+		DCDABCC517E8B00F007B4AEC /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = azure/Base64.h; sourceTree = "<group>"; };
+		DCDABCC617E8B00F007B4AEC /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = azure/Base64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 		DC9A3A6317DED2D700178FEE /* azure */ = {
 			isa = PBXGroup;
 			children = (
+				DCDABCC517E8B00F007B4AEC /* Base64.h */,
+				DCDABCC617E8B00F007B4AEC /* Base64.m */,
 				DC9A3A9217DF35C200178FEE /* MSHmacSha256Sign.h */,
 				DC9A3A9317DF35C200178FEE /* MSHmacSha256Sign.m */,
 				DC9A3A9417DF35C200178FEE /* MSQueueService.h */,
@@ -279,6 +284,7 @@
 				DC9A3A9C17DF35C200178FEE /* MSQueueService.m in Sources */,
 				DC9A3A9D17DF35C200178FEE /* MSSharedKey.m in Sources */,
 				DC9A3A9E17DF35C200178FEE /* MSWebResource.m in Sources */,
+				DCDABCC717E8B00F007B4AEC /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
