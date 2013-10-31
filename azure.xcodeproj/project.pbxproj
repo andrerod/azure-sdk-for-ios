@@ -21,6 +21,7 @@
 		DC9A3AA517DF360500178FEE /* MSHmacSha256SignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA017DF360500178FEE /* MSHmacSha256SignTests.m */; };
 		DC9A3AA617DF360500178FEE /* MSQueueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA217DF360500178FEE /* MSQueueServiceTests.m */; };
 		DC9A3AA717DF360500178FEE /* MSSharedKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A3AA417DF360500178FEE /* MSSharedKeyTests.m */; };
+		DCBDEF851822F81D00D0D90C /* MSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBDEF841822F81D00D0D90C /* MSClient.m */; };
 		DCD8EF4B1811A34500E2EA6D /* MSWebSiteManagementClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8EF4A1811A34500E2EA6D /* MSWebSiteManagementClient.m */; };
 		DCD8EF4E1811A39700E2EA6D /* MSWebSiteManagementClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD8EF4D1811A39700E2EA6D /* MSWebSiteManagementClientTests.m */; };
 		DCDABCC717E8B00F007B4AEC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDABCC617E8B00F007B4AEC /* Base64.m */; };
@@ -75,6 +76,8 @@
 		DC9A3AA217DF360500178FEE /* MSQueueServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQueueServiceTests.m; sourceTree = "<group>"; };
 		DC9A3AA317DF360500178FEE /* MSSharedKeyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSharedKeyTests.h; sourceTree = "<group>"; };
 		DC9A3AA417DF360500178FEE /* MSSharedKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSharedKeyTests.m; sourceTree = "<group>"; };
+		DCBDEF831822F81D00D0D90C /* MSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSClient.h; sourceTree = "<group>"; };
+		DCBDEF841822F81D00D0D90C /* MSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSClient.m; sourceTree = "<group>"; };
 		DCD8EF491811A34500E2EA6D /* MSWebSiteManagementClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWebSiteManagementClient.h; sourceTree = "<group>"; };
 		DCD8EF4A1811A34500E2EA6D /* MSWebSiteManagementClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWebSiteManagementClient.m; sourceTree = "<group>"; };
 		DCD8EF4C1811A39700E2EA6D /* MSWebSiteManagementClientTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWebSiteManagementClientTests.h; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				DC9A3A6417DED2D700178FEE /* Supporting Files */,
 				DCD8EF491811A34500E2EA6D /* MSWebSiteManagementClient.h */,
 				DCD8EF4A1811A34500E2EA6D /* MSWebSiteManagementClient.m */,
+				DCBDEF831822F81D00D0D90C /* MSClient.h */,
+				DCBDEF841822F81D00D0D90C /* MSClient.m */,
 			);
 			path = azure;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				DC9A3A9C17DF35C200178FEE /* MSQueueService.m in Sources */,
 				DC9A3A9D17DF35C200178FEE /* MSSharedKey.m in Sources */,
 				DC9A3A9E17DF35C200178FEE /* MSWebResource.m in Sources */,
+				DCBDEF851822F81D00D0D90C /* MSClient.m in Sources */,
 				DCDABCC717E8B00F007B4AEC /* Base64.m in Sources */,
 				DCD8EF4B1811A34500E2EA6D /* MSWebSiteManagementClient.m in Sources */,
 			);

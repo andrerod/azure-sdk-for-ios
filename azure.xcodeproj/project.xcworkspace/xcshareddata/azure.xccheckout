@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E038EF40-4786-480B-B351-159C7504C890</string>
+	<key>IDESourceControlProjectName</key>
+	<string>azure</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E880DD1C-A321-4F31-BA14-5DC69273F8D0</key>
+		<string>https://github.com/andrerod/azure-sdk-for-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>azure.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E880DD1C-A321-4F31-BA14-5DC69273F8D0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrerod/azure-sdk-for-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E880DD1C-A321-4F31-BA14-5DC69273F8D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E880DD1C-A321-4F31-BA14-5DC69273F8D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>azure-sdk-for-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
